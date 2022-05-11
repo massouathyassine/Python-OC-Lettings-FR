@@ -1,4 +1,4 @@
-## Résumé
+## Résumés
 
 Site web d'Orange County Lettings
 
