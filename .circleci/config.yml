@@ -66,11 +66,11 @@ workflows:
           filters:
             branches:
               only:
-                - main
+                - cercleci_pipeline
       - deploy-on-heroku:
           requires:
             - build-and-push-docker-image
           filters:
             branches:
               only:
-                - main
+                - cercleci_pipeline
