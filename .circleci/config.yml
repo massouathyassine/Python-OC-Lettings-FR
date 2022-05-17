@@ -34,8 +34,8 @@ jobs:
           name: Build
           command: |
             echo $CIRCLE_SHA1 | docker login -u ${DOCKERHUB_USER} -p ${DOCKERHUB_PASS}
-            docker build -t ${DOCKERHUB_USER}/oc_lettings:$CIRCLE_SHA1 .
-            docker push ${DOCKERHUB_USER}/oc_lettings:$CIRCLE_SHA1
+            docker build -t ${DOCKERHUB_USER}/oc_lettings1:$CIRCLE_SHA1 .
+            docker push ${DOCKERHUB_USER}/oc_lettings1:$CIRCLE_SHA1
   deploy-on-heroku:
     executor: heroku/default
     steps:
