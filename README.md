@@ -102,5 +102,15 @@ Utilisation de PowerShell, comme ci-dessus sauf :
   - Enregistrez les variables environnements nécessaires lors de l'éxécution du pipeline CI/CD : DEBUG, DOCKERHUB_PASS, DOCKERHUB_USER, HEROKU_API_KEY, HEROKU_APP_NAME, SECRET_KEY, dsn,
   
   
+  ## Exécution de l'intégration et déploiement 
+  
+  ### Les étapes du Pipeline CI/CD : 
+  
+  1) unittest-and-linter
+  2) build-and-push-docker-image
+  3) deploy-on-heroku
+  
+
+  
   
 
