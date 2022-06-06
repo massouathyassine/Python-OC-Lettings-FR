@@ -76,10 +76,10 @@ Utilisation de PowerShell, comme ci-dessus sauf :
 - Pour activer l'environnement virtuel, `.\venv\Scripts\Activate.ps1` 
 - Remplacer `which <my-command>` par `(Get-Command <my-command>).Path`
 
-### Intégration et déploiement (Pipeline CI/CD) :
+## Intégration et déploiement (Pipeline CI/CD) :
 
   ### Docker : 
-  - Aller sur le site de docker oui installer l'application hub desktop
+  - Aller sur le site de docker ou installer l'application hub desktop
   - Connectez-vous à votre compte docker et faire la laison avec l'application docker desktop 
   - Créer le fichier .dockerignore
   
