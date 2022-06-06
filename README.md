@@ -99,7 +99,7 @@ Utilisation de PowerShell, comme ci-dessus sauf :
   - Lier le compte github à votre compte Cercleci
   - Dans l'espace projects, sélectionnez le repository de notre projet en cliquant sur Set up project
   - Sélectionnez le project dans le dashboard CircleCi puis cliquez sur Project settings > Environnement variables
-  - Enregistrez les variables environnements nécessaires lors de l'éxécution du pipeline CI/CD : DEBUG, DOCKERHUB_PASS, DOCKERHUB_USER, HEROKU_API_KEY, HEROKU_APP_NAME, SECRET_KEY, dsn
+  - Enregistrez les variables environnements nécessaires lors de l'éxécution du pipeline CI/CD : DEBUG, DOCKERHUB_PASS, DOCKERHUB_USER, HEROKU_API_KEY, HEROKU_APP_NAME, SECRET_KEY, dsn,
   
   
   
