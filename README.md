@@ -75,3 +75,32 @@ Utilisation de PowerShell, comme ci-dessus sauf :
 
 - Pour activer l'environnement virtuel, `.\venv\Scripts\Activate.ps1` 
 - Remplacer `which <my-command>` par `(Get-Command <my-command>).Path`
+
+### Intégration et déploiement (Pipeline CI/CD) :
+
+  ### Docker : 
+  - Aller sur le site de docker oui installer l'application hub desktop
+  - Connectez-vous à votre compte docker et faire la laison avec l'application docker desktop 
+  - Créer le fichier .dockerignore
+  
+  ### Sentry : 
+  - Aller sur le site sentry ouvrer un compte et créer un projet Django
+  - Sentry génére un code (SDK) en python à intégrer dans le fichier settings du projet
+  
+  ### Heroku
+  - Aller sur le site de Heroku et créer un nouveau compte
+  - Créer une apllication
+  - ouvrer l'onglet setting et faire la laison avec github
+  - Dans l'onglet deploy cochez la case Wait for CI to pass before deploy et sélectionnez la branche à deployer
+
+
+  ### CircleCi :
+  - Aller sur le site de CirecleCi et ouvrer un nouveau compte
+  - Lier le compte github à votre compte Cercleci
+  - Dans l'espace projects, sélectionnez le repository de notre projet en cliquant sur Set up project
+  - Sélectionnez le project dans le dashboard CircleCi puis cliquez sur Project settings > Environnement variables
+  - Enregistrez les variables environnements nécessaires lors de l'éxécution du pipeline CI/CD : DEBUG, DOCKERHUB_PASS, DOCKERHUB_USER, HEROKU_API_KEY, HEROKU_APP_NAME, SECRET_KEY, dsn
+  
+  
+  
+
