@@ -108,7 +108,7 @@ Utilisation de PowerShell, comme ci-dessus sauf :
   
   1) unittest-and-linter
   2) build-and-push-docker-image
-  3) deploy-on-heroku.
+  3) deploy-on-heroku./
 
   
   
